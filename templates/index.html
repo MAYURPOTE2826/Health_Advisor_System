@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Diagnosis System</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://images.unsplash.com/photo-1588776814546-ec7bd2d3a9a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .overlay {
+            background: rgba(255, 255, 255, 0.8);
+            min-height: 100vh;
+            padding: 40px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        input, select, button {
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+        button {
+            background: #3498db;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #2980b9;
+        }
+        .result-box {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            background: #ecf9ff;
+            border-left: 5px solid #3498db;
+            text-align: left;
+        }
+        .link {
+            margin-top: 20px;
+            display: block;
+            font-weight: bold;
+            color: #2c3e50;
+            text-decoration: none;
+        }
+        .link:hover {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="container">
+            <h2>💊 Medical Diagnosis Prediction</h2>
+            <form method="POST">
+                <input type="number" name="age" placeholder="Enter Age" required>
+                
+                <select name="gender" required>
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                </select>
+                
+                <input type="number" step="any" name="bp" placeholder="Enter BP" required>
+                <input type="number" step="any" name="temp" placeholder="Enter Temperature" required>
+                <input type="text" name="symptom" placeholder="Enter Symptom (e.g., fever, cold)" required>
+                
+                <button type="submit">Predict Disease</button>
+            </form>
+
+            {% if result %}
+            <div class="result-box">
+                <h3>✅ Prediction Result:</h3>
+                <p><b>Disease:</b> {{ result.Disease }}</p>
+                <p><b>Tablet:</b> {{ result.Tablet }}</p>
+                <p><b>Suggestion:</b> {{ result.Suggestion }}</p>
+            </div>
+            {% endif %}
+
+            <a href="/records" class="link">📋 View Stored Patient Records</a>
+        </div>
+    </div>
+</body>
+</html>

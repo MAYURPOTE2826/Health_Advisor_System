@@ -1,0 +1,501 @@
+age,gender,bp,temp,symptom,target_disease,suggestion,tablet
+56,M,124,98.5,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+69,F,108,99.0,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+46,F,143,99.5,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+32,F,121,98.9,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+60,M,137,97.9,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+25,M,121,98.9,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+38,F,150,100.2,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+56,F,146,97.1,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+36,M,116,98.8,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+40,F,134,97.5,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+28,F,129,100.4,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+28,F,140,96.3,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+41,M,105,97.8,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+70,M,130,99.2,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+53,M,135,100.9,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+57,F,93,98.5,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+41,F,102,97.8,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+20,F,89,101.4,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+39,M,115,96.4,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+70,F,130,95.3,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+19,F,142,99.3,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+41,F,121,97.8,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+61,F,144,97.1,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+47,M,99,99.7,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+55,M,94,99.0,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+19,F,119,97.8,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+38,M,125,96.7,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+50,M,119,99.9,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+29,F,88,99.6,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+39,F,118,98.5,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+61,M,100,101.4,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+42,F,130,97.0,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+66,M,125,96.3,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+44,F,105,97.6,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+59,M,112,98.5,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+45,F,104,99.0,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+33,M,119,98.2,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+32,M,134,99.1,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+64,M,105,96.7,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+68,F,127,100.8,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+61,M,112,98.5,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+72,M,108,100.3,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+69,F,118,99.1,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+74,F,104,99.3,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+20,M,111,99.5,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+54,M,102,99.3,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+68,F,149,99.6,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+24,F,120,100.6,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+38,F,109,98.9,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+26,F,123,99.7,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+56,F,118,98.5,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+35,M,116,100.8,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+21,F,129,97.6,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+42,M,131,101.3,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+31,M,112,98.5,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+67,M,111,96.5,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+26,F,115,98.8,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+43,M,85,97.6,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+70,M,97,99.9,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+19,F,140,97.6,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+37,M,144,97.9,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+45,M,116,95.8,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+64,F,128,97.9,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+24,M,124,95.0,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+61,M,166,96.2,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+25,M,136,99.7,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+64,F,118,99.8,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+52,F,105,99.2,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+31,F,95,97.1,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+34,M,123,98.5,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+53,M,108,98.6,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+67,F,98,96.9,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+57,M,110,100.9,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+21,M,103,99.9,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+19,F,145,98.3,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+23,F,133,98.6,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+71,M,119,98.9,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+59,M,142,95.5,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+21,M,121,98.2,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+71,F,107,97.6,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+46,F,142,97.1,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+35,F,128,98.2,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+43,F,104,101.3,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+61,M,117,99.6,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+51,F,106,97.7,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+27,F,99,99.5,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+53,F,133,100.7,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+31,F,148,100.0,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+48,F,99,98.7,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+65,M,128,97.6,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+32,M,110,99.6,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+25,F,112,99.2,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+31,M,111,99.9,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+40,F,107,99.6,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+74,F,120,100.2,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+57,M,107,97.8,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+38,M,124,100.6,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+33,F,119,98.9,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+62,F,116,101.7,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+35,F,106,97.6,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+64,M,111,101.2,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+70,F,131,98.9,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+41,F,127,97.6,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+43,F,105,97.9,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+42,M,121,98.1,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+62,F,131,99.2,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+58,F,94,99.4,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Cetirizine 10mg
+46,M,128,97.7,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+32,F,110,98.6,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+62,F,128,101.8,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+18,M,108,101.2,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+42,F,92,99.3,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+24,M,95,98.7,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+26,M,120,98.8,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+41,F,123,99.5,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+18,F,106,97.1,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+61,F,129,98.2,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+25,F,95,96.1,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+41,M,119,99.2,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+28,F,101,99.6,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+68,M,110,97.9,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+34,F,120,101.0,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+25,F,107,96.8,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+52,F,114,96.4,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+52,M,135,98.9,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+50,F,111,100.2,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+22,F,132,101.1,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+59,F,103,97.9,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+56,F,127,100.2,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+58,M,141,98.5,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+45,F,82,98.3,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+24,M,108,99.9,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Cetirizine 10mg
+26,M,128,99.6,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+25,M,116,96.2,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+29,M,125,100.8,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+51,M,110,100.7,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+50,M,121,97.7,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+65,F,117,99.2,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+72,M,137,99.3,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+40,M,123,99.0,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+41,M,125,97.8,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+54,F,113,97.6,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+52,F,112,98.6,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+61,M,113,100.4,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+57,F,125,99.4,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+39,M,113,98.0,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+44,M,124,99.8,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+52,F,151,94.3,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+18,M,133,100.3,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+52,F,115,96.0,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+54,F,138,98.1,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+64,M,113,96.9,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+31,M,89,96.7,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+20,F,104,100.3,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+18,M,91,97.9,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+22,M,114,99.1,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+43,M,120,98.5,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+72,F,145,99.3,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+31,F,124,98.7,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+56,M,116,96.7,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+44,F,132,100.1,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+26,F,86,97.9,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+32,F,123,96.3,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+32,F,131,98.0,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+43,F,97,100.9,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+59,M,137,99.9,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+30,M,125,98.1,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+68,M,113,98.1,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+49,F,129,98.1,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+56,F,154,101.7,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+66,M,122,99.2,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+69,F,123,99.2,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+49,M,113,100.1,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+21,M,107,99.0,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+47,M,132,98.2,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+54,F,107,98.3,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+40,F,121,98.5,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+56,M,112,98.5,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+62,M,127,99.7,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+32,M,125,98.7,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+60,M,135,99.7,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+46,F,112,98.5,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+53,F,115,98.7,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+30,M,105,95.6,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+49,M,113,100.0,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+24,F,125,99.1,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+68,F,131,100.1,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+39,M,106,94.3,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+45,M,133,101.7,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+19,M,140,98.4,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+59,F,126,100.3,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+62,F,148,97.0,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+74,F,108,99.5,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+70,M,101,97.0,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+23,M,93,97.7,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+45,F,142,101.5,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+45,F,129,98.3,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+61,M,119,98.9,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+61,F,124,99.9,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+37,F,103,99.3,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+47,M,156,98.8,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+28,F,121,99.1,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+72,M,121,102.2,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+45,M,130,98.5,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+42,M,127,98.9,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+56,M,123,100.2,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+50,M,108,100.3,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+18,M,127,100.4,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+74,M,148,99.6,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+44,F,140,96.9,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+74,M,143,101.1,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+69,M,112,96.9,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+30,F,105,99.1,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+58,F,118,97.5,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+20,F,120,98.5,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+56,M,136,99.1,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+23,F,94,99.1,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+25,M,142,99.2,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+44,M,117,101.0,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+26,M,113,99.3,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+54,M,104,98.2,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+50,F,95,100.0,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+68,F,132,100.4,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+59,M,121,96.8,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+61,M,100,99.5,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+41,M,100,99.7,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+32,F,114,98.2,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+71,M,145,100.7,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+49,M,116,98.4,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+49,F,97,98.8,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+41,F,116,98.3,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+58,M,115,98.6,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+69,F,79,97.0,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+66,F,119,96.4,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+66,M,116,101.0,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+69,F,130,97.3,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+29,M,147,97.1,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+56,F,136,95.4,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+19,M,115,97.6,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+20,M,103,96.6,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+66,M,158,101.1,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+54,F,120,100.1,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+66,M,120,97.6,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+73,F,119,102.0,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+34,M,122,100.1,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+66,M,117,98.1,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+19,F,111,94.9,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+19,M,111,102.0,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+45,M,119,96.5,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+71,F,111,96.1,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+40,M,109,100.1,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+54,M,121,102.3,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+49,M,116,100.7,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+50,M,142,99.4,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+18,F,80,99.5,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+36,F,136,99.9,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+19,M,138,99.7,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Cetirizine 10mg
+70,F,88,99.0,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+61,M,114,98.8,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+43,F,114,98.5,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+49,M,98,97.5,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+23,M,108,98.2,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+49,M,103,96.1,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+72,M,146,98.5,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+21,M,134,97.1,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+72,M,139,96.9,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+28,F,130,98.9,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+73,M,103,100.7,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+34,F,112,100.0,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+55,M,127,96.2,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+41,F,101,97.1,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+22,F,130,100.0,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Cetirizine 10mg
+69,F,116,97.1,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+51,M,114,98.3,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+23,M,130,99.4,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+39,F,126,97.1,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+28,M,114,98.8,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+65,F,137,96.6,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+33,M,103,97.7,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+50,F,129,99.1,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+26,F,128,96.2,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+23,M,115,99.3,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+33,F,124,98.6,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+46,M,101,99.4,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+20,F,133,98.9,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Cetirizine 10mg
+37,F,117,100.6,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+53,M,112,98.8,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+36,M,135,98.0,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+43,M,109,98.8,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+20,F,98,99.4,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+36,M,96,98.7,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+37,F,129,98.7,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+49,F,100,97.5,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+24,M,146,97.6,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+69,M,88,96.5,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+58,F,145,101.2,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+50,F,123,96.7,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+57,M,118,97.6,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+56,M,111,97.5,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+35,M,125,99.9,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+57,M,119,98.2,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+18,M,136,100.5,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+28,F,121,97.6,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+45,F,122,99.0,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+74,F,114,97.3,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+42,F,119,101.8,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+67,M,124,96.8,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+40,M,94,99.1,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+48,M,99,99.6,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+47,F,131,99.2,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+59,F,122,98.3,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+52,M,117,98.4,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+24,M,120,98.7,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+33,F,125,98.4,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+43,F,111,100.0,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+65,M,108,101.9,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+74,M,122,97.8,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+69,F,105,96.5,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+66,M,126,98.5,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+19,M,94,102.5,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+18,M,135,97.4,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+65,F,127,101.1,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+29,F,123,101.1,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+22,F,134,97.8,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+54,F,144,99.5,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+49,F,135,101.0,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+72,F,92,98.0,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+26,F,100,98.3,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Cetirizine 10mg
+58,M,110,97.7,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+52,M,120,97.1,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+36,M,127,97.6,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+65,M,109,96.8,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+33,M,122,98.7,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+20,M,108,97.4,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+37,M,110,99.0,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+41,F,98,96.3,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+71,F,106,99.1,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+73,M,99,99.9,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+50,M,105,95.6,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+41,F,135,99.2,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+69,M,105,100.4,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+28,M,159,96.8,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+66,F,127,101.1,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+25,M,122,99.2,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+53,F,107,97.5,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+55,M,130,98.5,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+57,F,111,99.4,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+37,F,121,98.7,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+52,F,158,99.4,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+65,M,118,97.2,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+42,F,137,98.9,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+52,M,109,96.5,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+42,M,119,98.4,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+46,M,146,97.2,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+35,M,110,97.5,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+63,F,147,100.5,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+35,F,130,100.2,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+19,M,111,99.5,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Cetirizine 10mg
+71,M,129,97.0,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+52,F,134,98.1,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+33,M,129,100.4,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+58,F,96,98.8,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+53,M,109,102.1,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+50,M,116,99.2,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Cetirizine 10mg
+21,F,118,98.9,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+50,M,129,98.1,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+31,F,122,98.8,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+38,M,99,98.4,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+65,M,125,99.7,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+37,M,129,100.0,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+73,F,128,97.4,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+25,M,136,96.6,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+24,M,132,95.8,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+20,M,126,99.4,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+34,M,118,96.9,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+50,F,95,95.4,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+65,F,126,99.2,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Cetirizine 10mg
+29,M,123,102.3,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+68,F,124,98.6,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+39,M,100,99.9,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+72,M,103,98.7,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+39,M,135,98.5,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+63,F,119,100.0,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+47,F,130,98.2,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+55,F,120,99.0,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Cetirizine 10mg
+55,F,120,99.1,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+62,F,134,97.6,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+68,F,112,100.1,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Cetirizine 10mg
+71,F,121,98.3,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Cetirizine 10mg
+25,F,113,97.5,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+44,F,113,99.4,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+44,M,115,97.3,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+51,F,123,98.6,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+38,F,112,98.6,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+47,F,138,100.2,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+50,F,106,99.3,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+45,F,117,98.6,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+64,F,113,99.8,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+50,F,141,100.7,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+22,F,122,99.4,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+65,F,135,98.6,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Cetirizine 10mg
+36,F,97,96.6,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+21,F,124,97.0,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+52,M,133,98.1,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+66,M,121,97.7,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+34,F,135,98.3,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+61,F,112,98.7,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+45,M,141,99.4,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+47,F,154,98.5,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+46,M,114,99.3,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+63,M,113,98.7,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+70,M,141,95.6,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+23,M,143,97.2,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+52,M,112,98.4,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+58,F,113,96.8,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+54,M,115,99.5,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+41,F,99,100.9,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+46,F,106,100.4,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Cetirizine 10mg
+66,M,104,98.3,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+63,M,108,100.8,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+70,F,119,98.8,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+48,M,123,98.1,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+52,M,143,97.7,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+50,F,105,98.1,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+69,F,134,98.0,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+38,M,116,98.9,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+49,F,119,98.8,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+40,M,130,98.6,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+50,M,103,99.3,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+20,M,125,100.4,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+35,F,122,100.0,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+42,F,127,96.4,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+59,F,124,94.8,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+48,F,156,100.0,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Glimepiride 2mg
+71,F,110,96.5,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+20,M,112,98.3,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+57,M,110,96.8,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+63,M,111,95.9,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+41,M,110,99.4,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+67,F,137,99.7,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+49,M,141,97.7,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Cetirizine 10mg
+64,F,111,94.7,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+39,M,107,97.8,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+40,F,127,99.2,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+19,F,111,96.4,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+44,M,129,98.9,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+59,M,123,98.6,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+19,M,97,99.5,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+43,M,143,98.8,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+34,F,146,97.1,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+57,M,110,100.4,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+50,M,114,98.4,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+26,F,124,98.6,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+60,M,125,97.2,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+71,M,129,97.9,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+65,M,150,97.3,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Cetirizine 10mg
+56,M,117,98.3,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+46,M,108,101.2,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+59,F,99,96.5,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+72,M,109,96.2,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+43,M,119,100.8,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Nitroglycerin 0.3mg
+52,M,146,98.3,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+67,M,112,97.6,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+42,M,123,100.2,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+41,F,119,97.7,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+30,M,137,101.3,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+24,F,157,99.6,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+74,F,112,97.9,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+53,M,112,101.8,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+62,M,135,97.7,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+37,M,130,99.7,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+18,M,147,99.0,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+25,F,128,100.6,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Paracetamol 500mg
+63,M,114,100.9,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+33,M,128,98.6,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Lisinopril 10mg
+31,M,136,97.5,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+29,M,132,99.3,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Paracetamol 500mg
+68,M,127,97.6,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+40,M,136,101.6,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+32,F,137,98.8,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+45,F,140,98.1,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Metformin 500mg
+51,M,129,98.9,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Ibuprofen 200mg
+19,M,117,96.6,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Acetaminophen 500mg
+49,M,122,97.1,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Amlodipine 5mg
+40,F,138,100.4,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Paracetamol 500mg
+39,M,107,97.6,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Aspirin 75mg
+68,F,125,97.0,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+42,M,114,99.4,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+39,M,120,100.4,fever,fever,"Take paracetamol, stay hydrated, consult doctor if >102°F",Ibuprofen 200mg
+39,M,139,99.7,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Aspirin 75mg
+66,M,122,100.1,diabetes,diabetes,"Take insulin/medicines regularly, eat balanced diet, exercise daily",Insulin 10 units
+69,F,120,97.5,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+59,F,99,96.5,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Aceclofenac 100mg
+23,M,131,100.9,cold,cold,"Drink warm fluids, rest, take paracetamol if needed",Azithromycin 250mg
+32,M,129,98.1,hypertension,hypertension,"Reduce salt intake, exercise regularly, take medicines on time",Losartan 50mg
+71,F,152,98.2,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+60,F,115,100.6,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
+54,F,123,99.4,headache,headache,"Take rest, drink water, avoid screen time, mild painkiller if needed",Ibuprofen 200mg
+50,F,123,99.3,chest_pain,chest_pain,"Consult doctor immediately, regular medicines, avoid oily food",Consult doctor
+25,M,143,101.8,body_pain,body_pain,"Do light stretching, warm bath, pain relief medicine if severe",Paracetamol 500mg
