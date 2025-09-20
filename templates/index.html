@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medical Diagnosis System</title>
+    <title>AI Medical Diagnosis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Poppins', sans-serif;
@@ -13,21 +14,21 @@
             background-size: cover;
         }
         .overlay {
-            background: rgba(255, 255, 255, 0.8);
+            background: rgba(255, 255, 255, 0.85);
             min-height: 100vh;
-            padding: 40px;
+            padding: 50px 20px;
         }
         .container {
-            max-width: 600px;
+            max-width: 700px;
             margin: auto;
             background: white;
-            padding: 30px;
+            padding: 40px;
             border-radius: 15px;
-            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-            text-align: center;
+            box-shadow: 0 6px 25px rgba(0,0,0,0.2);
         }
         h2 {
-            margin-bottom: 20px;
+            text-align: center;
+            margin-bottom: 25px;
             color: #2c3e50;
         }
         form {
@@ -51,17 +52,27 @@
         button:hover {
             background: #2980b9;
         }
-        .result-box {
-            margin-top: 20px;
-            padding: 15px;
-            border-radius: 10px;
-            background: #ecf9ff;
-            border-left: 5px solid #3498db;
-            text-align: left;
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
+        }
+        .results-table th, .results-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        .results-table th {
+            background-color: #3498db;
+            color: white;
+        }
+        .results-table tr:nth-child(even) {
+            background-color: #f2f2f2;
         }
         .link {
-            margin-top: 20px;
             display: block;
+            text-align: center;
+            margin-top: 25px;
             font-weight: bold;
             color: #2c3e50;
             text-decoration: none;
@@ -74,30 +85,38 @@
 <body>
     <div class="overlay">
         <div class="container">
-            <h2>💊 Medical Diagnosis Prediction</h2>
+            <h2>💊 AI Medical Diagnosis Prediction</h2>
             <form method="POST">
                 <input type="number" name="age" placeholder="Enter Age" required>
-                
                 <select name="gender" required>
                     <option value="" disabled selected>Select Gender</option>
                     <option value="M">Male</option>
                     <option value="F">Female</option>
                 </select>
-                
-                <input type="number" step="any" name="bp" placeholder="Enter BP" required>
+                <input type="number" step="any" name="bp" placeholder="Enter Blood Pressure" required>
                 <input type="number" step="any" name="temp" placeholder="Enter Temperature" required>
-                <input type="text" name="symptom" placeholder="Enter Symptom (e.g., fever, cold)" required>
-                
+                <input type="text" name="symptom" placeholder="Enter Symptom (optional)" >
+                <input type="text" name="symptom_desc" placeholder="Describe your symptoms (free-text)" >
                 <button type="submit">Predict Disease</button>
             </form>
 
-            {% if result %}
-            <div class="result-box">
-                <h3>✅ Prediction Result:</h3>
-                <p><b>Disease:</b> {{ result.Disease }}</p>
-                <p><b>Tablet:</b> {{ result.Tablet }}</p>
-                <p><b>Suggestion:</b> {{ result.Suggestion }}</p>
-            </div>
+            {% if results %}
+            <table class="results-table">
+                <tr>
+                    <th>Symptom</th>
+                    <th>Disease</th>
+                    <th>Tablet</th>
+                    <th>Suggestion</th>
+                </tr>
+                {% for r in results %}
+                <tr>
+                    <td>{{ r.Symptom }}</td>
+                    <td>{{ r.Disease }}</td>
+                    <td>{{ r.Tablet }}</td>
+                    <td>{{ r.Suggestion }}</td>
+                </tr>
+                {% endfor %}
+            </table>
             {% endif %}
 
             <a href="/records" class="link">📋 View Stored Patient Records</a>
