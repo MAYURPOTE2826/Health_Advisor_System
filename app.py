@@ -3,14 +3,27 @@ import sqlite3
 import joblib
 import pandas as pd
 import spacy
+import pytesseract
+from PIL import Image
+import os
 
 app = Flask(__name__)
 
+UPLOAD_FOLDER = "uploads"
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
+
+# Load ML models and encoders
 model = joblib.load("model.pkl")
 le_gender = joblib.load("le_gender.pkl")
 le_symptom = joblib.load("le_symptom.pkl")
 le_disease = joblib.load("le_disease.pkl")
+
+# Load datasets
 data = pd.read_csv("Medical_Advice.csv")
+med_data = pd.read_csv("medicines.csv")
+
+# Load NLP model
 nlp = spacy.load("en_core_web_sm")
 
 SYMPTOM_KEYWORDS = {
@@ -43,6 +56,7 @@ def init_db():
     c.execute("""
         CREATE TABLE IF NOT EXISTS records (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
+            name TEXT,
             age INTEGER,
             gender TEXT,
             bp REAL,
@@ -50,30 +64,41 @@ def init_db():
             symptom TEXT,
             disease TEXT,
             suggestion TEXT,
-            tablet TEXT
+            tablet TEXT,
+            symptom_desc TEXT
         )
     """)
-    c.execute("PRAGMA table_info(records)")
-    columns = [col[1] for col in c.fetchall()]
-    if "symptom_desc" not in columns:
-        c.execute("ALTER TABLE records ADD COLUMN symptom_desc TEXT")
     conn.commit()
     conn.close()
 
 init_db()
 
+def get_medicine_info(med_name):
+    row = med_data[med_data["name"].str.lower() == med_name.lower()]
+    if not row.empty:
+        return {
+            "name": row.iloc[0]["name"],
+            "use": row.iloc[0]["use"],
+            "side_effects": row.iloc[0]["side_effects"]
+        }
+    return None
+
+# ---------------- Patient Symptom Prediction ---------------- #
 @app.route("/", methods=["GET", "POST"])
 def index():
     if request.method == "POST":
         try:
+            name = request.form.get("name", "Anonymous")
             age = int(request.form["age"])
             gender = request.form["gender"].strip().upper()
             bp = float(request.form["bp"])
             temp = float(request.form["temp"])
             symptom = request.form.get("symptom", "").strip().lower()
             symptom_desc = request.form.get("symptom_desc", "").strip()
+
             extracted = extract_symptoms(symptom_desc) if symptom_desc else []
             symptoms_to_use = extracted if extracted else [symptom]
+
             results = []
             for sym in symptoms_to_use:
                 if sym not in le_symptom.classes_:
@@ -92,12 +117,14 @@ def index():
                 })
                 conn = sqlite3.connect("patients.db")
                 c = conn.cursor()
-                c.execute("""INSERT INTO records 
-                             (age, gender, bp, temp, symptom, disease, suggestion, tablet, symptom_desc) 
-                             VALUES (?,?,?,?,?,?,?,?,?)""",
-                          (age, gender, bp, temp, sym, disease, row["suggestion"], row["tablet"], symptom_desc))
+                c.execute("""
+                    INSERT INTO records 
+                    (name, age, gender, bp, temp, symptom, disease, suggestion, tablet, symptom_desc) 
+                    VALUES (?,?,?,?,?,?,?,?,?,?)
+                """, (name, age, gender, bp, temp, sym, disease, row["suggestion"], row["tablet"], symptom_desc))
                 conn.commit()
                 conn.close()
+
             if not results:
                 return "❌ No valid symptom found. Try again."
             return render_template("index.html", results=results)
@@ -105,6 +132,45 @@ def index():
             return f"❌ Error: {e}"
     return render_template("index.html", results=None)
 
+# ---------------- Medicine OCR Upload ---------------- #
+@app.route("/upload_medicine", methods=["GET", "POST"])
+def upload_medicine():
+    result = None
+    error_msg = None
+
+    if request.method == "POST":
+        file = request.files.get("medicine_image")
+        if not file or file.filename == "":
+            error_msg = "❌ No file uploaded."
+        else:
+            try:
+                filepath = os.path.join(app.config["UPLOAD_FOLDER"], file.filename)
+                file.save(filepath)
+                img = Image.open(filepath)
+                text = pytesseract.image_to_string(img).strip().lower()
+
+                if not text:
+                    error_msg = "❌ Could not extract text from image."
+                else:
+                    med_row = med_data[med_data["name"].str.lower().str.contains(text)]
+                    if not med_row.empty:
+                        med_row = med_row.iloc[0]
+                        result = {
+                            "name": med_row["name"],
+                            "use": med_row["use"],
+                            "side_effects": med_row["side_effects"]
+                        }
+                    else:
+                        error_msg = "❌ Medicine not found in database."
+
+            except pytesseract.TesseractNotFoundError:
+                error_msg = "❌ Tesseract is not installed or not found. Install it and ensure it's in your PATH."
+            except Exception as e:
+                error_msg = f"❌ Error: {e}"
+
+    return render_template("upload_medicine.html", result=result, error_msg=error_msg)
+
+# ---------------- View Patient Records ---------------- #
 @app.route("/records")
 def records():
     conn = sqlite3.connect("patients.db")
@@ -113,6 +179,7 @@ def records():
     rows = c.fetchall()
     conn.close()
     return render_template("records.html", rows=rows)
+
 @app.route("/delete/<int:record_id>", methods=["POST"])
 def delete_record(record_id):
     conn = sqlite3.connect("patients.db")
@@ -130,7 +197,6 @@ def delete_all_records():
     conn.commit()
     conn.close()
     return records()
-
 
 if __name__ == "__main__":
     app.run(debug=True)

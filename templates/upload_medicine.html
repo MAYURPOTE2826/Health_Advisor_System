@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Medicine Image</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f0f4f8;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 500px;
+      margin: 50px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+    h2 {
+      color: #333;
+      margin-bottom: 25px;
+    }
+    .upload-box {
+      border: 2px dashed #007bff;
+      padding: 30px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      margin-bottom: 20px;
+      color: #555;
+    }
+    .upload-box:hover {
+      background: #e6f0ff;
+    }
+    input[type="file"] {
+      display: none;
+    }
+    button {
+      padding: 12px 25px;
+      background: #28a745;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #1e7e34;
+    }
+    .result-box {
+      margin-top: 20px;
+      background: #f9f9f9;
+      padding: 18px;
+      border-radius: 8px;
+      text-align: left;
+    }
+    .error {
+      color: #dc3545;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    a.back-link {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>💊 Upload Medicine Image</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+      <label class="upload-box" for="medicine_image">
+        Click or Drag & Drop to Upload
+      </label>
+      <input type="file" id="medicine_image" name="medicine_image" accept="image/*">
+      <button type="submit">Detect Medicine</button>
+    </form>
+
+    {% if error_msg %}
+      <div class="error">{{ error_msg }}</div>
+    {% endif %}
+
+    {% if result %}
+      <div class="result-box">
+        {% if result.error %}
+          <p>{{ result.error }}</p>
+        {% else %}
+          <p><strong>Medicine Name:</strong> {{ result.name }}</p>
+          <p><strong>Use:</strong> {{ result.use }}</p>
+          <p><strong>Side Effects:</strong> {{ result.side_effects }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <a href="/" class="back-link">⬅️ Back to Health Advisor</a>
+  </div>
+
+  <script>
+    const uploadBox = document.querySelector('.upload-box');
+    const fileInput = document.getElementById('medicine_image');
+
+    uploadBox.addEventListener('click', () => fileInput.click());
+    uploadBox.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      uploadBox.style.background = "#e6f0ff";
+    });
+    uploadBox.addEventListener('dragleave', () => {
+      uploadBox.style.background = "white";
+    });
+    uploadBox.addEventListener('drop', (e) => {
+      e.preventDefault();
+      fileInput.files = e.dataTransfer.files;
+      uploadBox.style.background = "white";
+    });
+  </script>
+</body>
+</html>
