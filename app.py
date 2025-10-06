@@ -6,6 +6,10 @@ import spacy
 import pytesseract
 from PIL import Image
 import os
+import pytesseract
+
+# Explicit path for Windows
+
 
 app = Flask(__name__)
 
@@ -197,6 +201,9 @@ def delete_all_records():
     conn.commit()
     conn.close()
     return records()
+
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 
 if __name__ == "__main__":
     app.run(debug=True)
